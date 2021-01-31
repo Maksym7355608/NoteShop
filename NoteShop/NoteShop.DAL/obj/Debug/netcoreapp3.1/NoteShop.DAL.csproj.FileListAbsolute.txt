@@ -1,0 +1,15 @@
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.DAL.deps.json
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.DAL.dll
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.csprojAssemblyReference.cache
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.AssemblyInfoInputs.cache
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.AssemblyInfo.cs
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.DAL.runtimeconfig.json
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.DAL.runtimeconfig.dev.json
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.genruntimeconfig.cache
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.Models.dll
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.Models.pdb
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.csproj.CopyComplete
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\bin\Debug\netcoreapp3.1\NoteShop.DAL.pdb
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.dll
+C:\Users\Максим\Documents\3 курс\C#\NoteShop\NoteShop\NoteShop.DAL\obj\Debug\netcoreapp3.1\NoteShop.DAL.pdb

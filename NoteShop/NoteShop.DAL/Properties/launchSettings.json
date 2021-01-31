@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "NoteShop.DAL": {
+      "commandName": "Executable"
+    }
+  }
+}
