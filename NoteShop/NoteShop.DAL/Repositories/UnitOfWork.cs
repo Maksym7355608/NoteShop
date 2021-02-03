@@ -7,10 +7,8 @@ namespace NoteShop.DAL.Repositories
     public class UnitOfWork : IUnitOfWork
     {
         private ProductRepository productRepository;
-        private PaperRepository paperRepository;
         private NotebookRepository notebookRepository;
         private DiaryRepository diaryRepository;
-        private WritingToolRepository toolRepository;
         private PenRepository penRepository;
         private PencilRepository pencilRepository;
         private CartRepository cartRepository;
@@ -33,14 +31,6 @@ namespace NoteShop.DAL.Repositories
         }
 
 
-        public IRepository<Paper> Papers
-        {
-            get
-            {
-                return paperRepository ??= new PaperRepository(context);
-            }
-        }
-
         public IRepository<Notebook> Notebooks
         {
             get
@@ -54,14 +44,6 @@ namespace NoteShop.DAL.Repositories
             get
             {
                 return diaryRepository ??= new DiaryRepository(context);
-            }
-        }
-
-        public IRepository<WritingTool> WritingTools
-        {
-            get
-            {
-                return toolRepository ??= new WritingToolRepository(context);
             }
         }
 
@@ -89,7 +71,7 @@ namespace NoteShop.DAL.Repositories
             }
         }
 
-        public IRepository<Likes> Likes
+        public IRepository<Cart> Likes
         {
             get
             {

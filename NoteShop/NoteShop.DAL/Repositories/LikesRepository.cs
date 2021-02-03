@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace NoteShop.DAL.Repositories
 {
-    public class LikesRepository : IRepository<Likes>
+    public class LikesRepository : IRepository<Cart>
     {
         private NoteShopContext context;
 
@@ -16,16 +16,16 @@ namespace NoteShop.DAL.Repositories
             this.context = context;
         }
 
-        public void Create(Likes item) => context.Likes.Add(item);
+        public void Create(Cart item) => context.Likes.Add(item);
 
-        public IEnumerable<Likes> Find(Func<Likes, bool> predicate) => context.Likes.Where(predicate).ToList();
+        public IEnumerable<Cart> Find(Func<Cart, bool> predicate) => context.Likes.Where(predicate).ToList();
 
-        public Likes Get(int id) => context.Likes.Where(x => x.Id == id).FirstOrDefault();
+        public Cart Get(int id) => context.Likes.Where(x => x.Id == id).FirstOrDefault();
 
-        public IEnumerable<Likes> GetAll() => context.Likes.ToList();
+        public IEnumerable<Cart> GetAll() => context.Likes.ToList();
 
         public void Remove(int id) => context.Likes.Remove(Get(id));
 
-        public void Update(Likes item) => context.Likes.Update(item);
+        public void Update(Cart item) => context.Likes.Update(item);
     }
 }
