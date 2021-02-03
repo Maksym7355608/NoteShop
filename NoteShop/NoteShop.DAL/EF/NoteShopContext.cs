@@ -6,8 +6,6 @@ namespace NoteShop.DAL.EF
     public class NoteShopContext : DbContext
     {
         public DbSet<Product> Products { get; set; }
-        public DbSet<Paper> Papers { get; set; }
-        public DbSet<WritingTool> WritingTools { get; set; }
         public DbSet<Notebook> Notebooks { get; set; }
         public DbSet<Diary> Diaries { get; set; }
         public DbSet<Pen> Pens { get; set; }
@@ -33,10 +31,6 @@ namespace NoteShop.DAL.EF
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<Product>().ToTable("Products");
-
-            modelBuilder.Entity<Paper>().ToTable("Papers");
-
-            modelBuilder.Entity<WritingTool>().ToTable("WritingTools");
 
             modelBuilder.Entity<Notebook>().ToTable("Notebooks");
 
