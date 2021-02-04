@@ -16,13 +16,11 @@ namespace NoteShop.DAL.EF
         public DbSet<Cart> Carts { get; set; }
 
         static NoteShopContext() { }
+        public NoteShopContext() { }
 
         public NoteShopContext(DbContextOptions options) : base(options)
         {
             Database.EnsureCreated();
-
-            DbContextOptionsBuilder dbContextOptions = new DbContextOptionsBuilder(options);
-            dbContextOptions.EnableSensitiveDataLogging();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -39,6 +37,25 @@ namespace NoteShop.DAL.EF
 
             modelBuilder.Entity<Pencil>().ToTable("Pencils");
 
+            modelBuilder.Entity<Image>().HasData(new Image[]
+            {
+                new Image() { Id = 1 },
+                new Image() { Id = 2 },
+                new Image() { Id = 3 },
+                new Image() { Id = 4 },
+                new Image() { Id = 5 },
+                new Image() { Id = 6 },
+                new Image() { Id = 7 },
+                new Image() { Id = 8 },
+                new Image() { Id = 9 },
+                new Image() { Id = 10 },
+                new Image() { Id = 11 },
+                new Image() { Id = 12 },
+                new Image() { Id = 13 },
+                new Image() { Id = 14 },
+                new Image() { Id = 15 },
+                new Image() { Id = 16 }
+            });
 
             modelBuilder.Entity<Notebook>().HasData(new Notebook[]
             {
