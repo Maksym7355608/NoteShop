@@ -1,8 +1,8 @@
 ﻿namespace NoteShop.Models
 {
-    class Pencil : Product
+    public class Pencil : Product
     {
-        public Hardness MyProperty { get; set; }
+        public Hardness Hardness { get; set; }
     }
 
     public enum Hardness : uint

@@ -8,5 +8,15 @@
         public int Count { get; set; }
         public int ImageId { get; set; }
         public Image Image { get; set; }
+        public ProductType ProductType { get; set; }
     }
+
+    public enum ProductType : uint
+    {
+        Notebook = 1,
+        Diary,
+        Pen,
+        Pencil
+    }
+
 }
