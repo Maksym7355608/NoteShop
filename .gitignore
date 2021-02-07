@@ -1,0 +1,16 @@
+NoteShop/NoteShop.Models/bin/
+NoteShop/NoteShop.Models/obj/
+
+NoteShop/NoteShop.DAL/bin/
+NoteShop/NoteShop.DAL/obj/
+
+NoteShop/NoteShop.BLL/bin/
+NoteShop/NoteShop.BLL/obj/
+
+NoteShop/NoteShop.Root/bin/
+NoteShop/NoteShop.Root/obj/
+
+NoteShop/.vs
+
+NoteShop/NoteShop.API/bin/
+NoteShop/NoteShop.API/obj/
