@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NoteShop.DAL\NoteShop.DAL.csproj" />
+    <ProjectReference Include="..\NoteShop.Models\NoteShop.Models.csproj" />
+  </ItemGroup>
+
+</Project>
